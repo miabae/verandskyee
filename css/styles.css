@@ -1,0 +1,187 @@
+#title {
+  background-color: #9AA1D9;
+  color: #5762AE;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 3rem;
+  line-height: 1;
+}
+
+h2 {
+  font-family: 'Abel', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+h4 {
+  font-family: 'Abel', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+body {
+  font-family: 'Varela Round', sans-serif;
+}
+
+p {
+  color: #000;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  font-family: 'Lobster', cursive;
+}
+
+.title-img {
+  width: 40%;
+  position: absolute;
+  transform: rotate(-15deg);
+  left: 40%
+}
+
+.shop-button {
+  margin: 3% 3% 5% 0;
+}
+
+#features {
+  background-color: #DBDBF5;
+  opacity: 75%;
+  padding: 0% 5%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #5762AE;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #000;
+}
+
+#products {
+  background-color: #5762AE;
+  color: #fff;
+  text-align: center;
+  padding: 7% 25%;
+}
+
+.product-img {
+  max-width: 450px;
+  max-height: 300px;
+  border-radius: 80%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#care {
+  text-align: center;
+  padding: 7% 25%;
+}
+
+#order {
+  text-align: center;
+  background-color: #9AA1D9;
+  color: #fff;
+  padding: 7% 25%;
+}
+
+.payment-img {
+  border-radius: 30%;
+  width: 20%;
+}
+
+#footer {
+  text-align: center;
+  padding: 3% 10%;
+  background-color: #fff;
+  font-size: 14px;
+}
+
+.footer-link {
+  color: #5762AE;
+}
+
+.footer-link:hover {
+  color: #5762AE;
+  text-decoration: none;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: #000;
+}
+
+.social-icon:hover {
+  color: #5762AE;
+  text-decoration: none;
+}
+
+.topb {
+  transition: all .25s ease-in-out;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: inline-flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin: 3rem;
+  padding: 1rem;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  background-color: #5762AE;
+  opacity: 30%;
+}
+
+.topb:hover {
+  color: #5762AE;
+  background-color: #9AA1D9;
+}
+
+@media (max-width: 1028px) {
+  #title {
+      text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
